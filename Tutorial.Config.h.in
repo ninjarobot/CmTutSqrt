@@ -1,0 +1,14 @@
+//
+// Created by David Curylo on 11/26/16.
+//
+
+#ifndef CMTUTSQRT_TUTORIAL_CONFIG_H_IN
+#define CMTUTSQRT_TUTORIAL_CONFIG_H_IN
+
+#define Tutorial_VERSION_MAJOR @Tutorial_VERSION_MAJOR@
+#define Tutorial_VERSION_MINOR @Tutorial_VERSION_MINOR@
+
+#endif //CMTUTSQRT_TUTORIAL_CONFIG_H_IN
+
+// Pass USE_MYMATH to CMake
+#cmakedefine USE_MYMATH
